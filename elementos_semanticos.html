@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Semânticos do HTML5</title>
+</head>
+
+<body>
+    <header>
+        <nav>Barra de navegação</nav>
+    </header>
+    <main>
+        <h3>Conteúdo principal</h3>
+
+        <section id="conteudo_aula">
+            <p>Tag <code>&lt;header&gt;</code> que representa o cabeçalho de uma página</p>
+            
+            <p>Tag <code>&lt;nav&gt;</code> que representa a barra de navegação da página</p>
+
+            <p>Tag <code>&lt;main&gt;</code> que representa o conteúdo principal da página</p>
+
+            <p>Tag <code>&lt;section&gt;</code> que representa uma sessão dentro da página</p>
+            
+            <p>Tag <code>&lt;article&gt;</code> que representa uma artigo dentro da página, geralmente usado para blocos que são repetíveis, aceita tags header, main e footer</p>
+
+            <p>Tag <code>&lt;figure&gt;</code> que é utilizada para envolver uma imagem. Semanticamente faz mais sentido envolver a imagem com um figure do que com um div. E ela possuo uma tag chamda figcaption, que pode ser utilizada, por exemplo, para descrever a imagem.</p>
+
+            <p>Tag <code>&lt;aside&gt;</code> que representa uma barra lateral da página - Pode ser colocado dentro ou fora do main</p>
+
+            <p>Tag <code>&lt;footer&gt;</code> que representa o rodapé da página</p>
+        </section>
+
+        <section id="about-me">
+            <figure>
+                <img src="https://avatars.githubusercontent.com/u/11983231?v=4" width="200" alt="Francisco Neto - Imagem de Perfil">
+                <figcaption>Foto de perfil do github</figcaption>
+            </figure>
+        </section>
+        
+        <section id="portfolio">
+            Portfólio
+        </section>
+        
+        <section id="blog">
+
+            <article>
+                <header>
+                    Title
+                </header>
+                <main>
+                    Content
+                </main>
+                <footer>
+                    Autor
+                </footer>
+            </article>
+
+        </section>
+        
+        <p>Em questão de estrutura da página HTML não muda nada, porém as tags possuem mais semântica, faz mais sentido,
+            e auxilia nos mecanismos de busca.</p>
+
+    </main>
+    <aside>
+        Conteúdo da barra lateral
+    </aside>
+    <footer>
+        Conteúdo do Rodapé
+    </footer>
+</body>
+
+</html>
